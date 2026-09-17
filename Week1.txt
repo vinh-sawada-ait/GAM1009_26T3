@@ -1,0 +1,81 @@
+# Week 1 
+
+## TOPIC: Introduction to Game Engines 
+## CONCEPT: Approaching Game design/development 
+## TERMINOLOGY: Blueprint, Player Pawn, Inputs 
+## SKILL: Create Blueprint, manage files, use version control system, document progress 
+
+Visual scripting (blueprints, node-based)
+Text scripting (code)
+
+The game we will be building: Shoot 'em Up
+
+What is a game engine?
+Why would we use a game engine?
+- make it easier
+- save time
+- ensure stability
+- multi-device enabled (deployment, inputs)
+
+# Tasks 
+
+Download and install UE5.7 
+GitHub 
+Sign Up 
+Download desktop client 
+	https://desktop.github.com/download/
+Create new repository 
+Create placeholder folder and file 
+Create a new blank UE Project 
+Commit and Push to GitHub
+
+Break until 10:20
+
+Shoot Em Up Genre
+https://www.youtube.com/watch?v=u2ZMuSSHeFQ
+
+MyPlayerHealth   < --- this naming style
+My Player Health
+
+
+Participate in class discussion 
+Become familiar with UE Interface 
+Activity 1 - post to discussion forum 
+[homework] Activity 2 - post to discussion forum 
+[homework] Activity 3 - post to discussion forum 
+
+Break until 11:15
+
+Create Mini Tank Game 
+Plan mechanics/features
+
+What are we building?
+- a drivable tank
+	* move forward/backward
+	* rotate left/right (body)
+	* rotate left/right (canon)
+	- pitch up/down (canon)
+	- shoot a bullet/missile/shell
+	- collide with walls
+	* wheels spin when moving
+	* take inputs from user
+	* visual representation
+
+Create Tank blueprint class 
+Test debug key inputs 
+Add main components 
+Add input/movement logic 
+Create Missile blueprint class 
+Add input/shooting logic 
+Save work and push to GitHub 
+
+[homework] Read Assignment 1 
+[homework] Research and play Shoot 'Em Up games 
+[homework] Re-create the tank, following the class recording. Build up the obstacle course in the level
+[homework] Watch getting started videos for GitHub 
+
+[homework] Activity 1 - post to discussion forum 
+[homework] Activity 3 - post to discussion forum
+
+
+
