@@ -1,0 +1,87 @@
+# Week 2 
+- TOPIC: Basic Player Functionality 
+- CONCEPT: Applying Knowledge from Documentation 
+- TERMINOLOGY: Player Pawn, Inputs, Events, Boolean, String, Vector, Floats, Integers, Static Mesh 
+- SKILL: Commenting in Blueprints
+
+# Weekly checklist
+https://redhilleducation.sharepoint.com/:w:/s/AIT/IQD3q0UTY623QY8fnASqeF35AT-MDxw3XOnI-QPiuFYh9GA?e=7ZRYlK
+
+Boolean	- True/False
+	isKeyPressed
+	isPlayerAlive
+	isPlayerOverlappedWithEnemy
+Integers - any whole number, pos/neg
+	1, 5, 10, 100, 100000
+	-1, -15
+	Score
+	Number of Enemies you've killed
+	Number of lives you have remaining\
+
+8 bit int, 32 bit int
+Floats - any decimal numbers
+	pickup increases damage
+	1.2
+	* base damage
+Vector - a set of numerical data
+	a set int
+	a set of floats
+		position/location (100.5,0,0)
+		rotation (0,0,90)
+		scale (1,1,4)
+	a bools (0,0,0) (-1,0,0)
+String - a sequence of characters
+	"the sentence is a string"
+	"01" =/= 1 [0000 0000 0000 0001]
+	name of the level
+	player name
+	Ui: "score", "lives", "resume" "pause"
+
+(0,0) = top left
+(300,900)
+(300.1,900)
+(301,900)
+
+0 -> 0.1 -> 0.2 -> 0.3 ------ 1.0 deg
+
+# Agenda 
+- Google Site 
+https://sites.google.com/
+
+Break until 10:00
+
+- Plan a simple game mechanic (player movement) 
+
+What are we building?
+	a flying vehicle?
+	+move 2D on screen up/down, left/right
+	+receives inputs from the player
+	*collision
+	*shooting
+	*receives/deal damage
+	*reloading/ammo
+	+visual representation of the ship
+		2D image
+		3D model
+	*audio representation
+	+camera
+
+- Setting up input system
+Create input actions
+Create input mapping context
+
+Break until 11:11
+
+
+- Create a flying vehicle 
+- Script the flying movement 
+- Test and troubleshoot 
+- Develop the 3D model 
+ + Historic aviation 
+ + Modern air force 
+ + Futuristic spaceship 
+
+
+
+Homework 
+- Read through Assignment 1 Rubric
