@@ -1,19 +1,67 @@
 # Week 3 
-
 - TOPIC: Polish Movement Mechanics 
-
 - CONCEPT: Game Engine Framework / Variables 
-
 - TERMINOLOGY: Game Mode, Game Instance, Game State, Player State, Player Controller, Tick, Interpolation 
-
 - SKILL: Implement standards, styles and naming conventions 
 
- 
+Q&A Assignment 1
 
-# Agenda 
-
+# Agenda
 - Learn about UE framework, naming conventions 
+https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine
+
+https://github.com/Allar/ue5-style-guide
 
 - Add rotating element to our flying vehicle 
 
-- Create smooth movement for our flying vehicle 
+Break until 10:10
+
+- Create smooth movement for our flying vehicle
+
+Do we use tick?
+Because the "triggered" output of our input action (move left/right mapped to A and D keys) will only executive whilst pressed.
+
+Interpolation
+- Target roll
+- Current roll
+
+Target = +1
+Current = 0
+
+In the next tick, we want to rotation 0 -> 0.016
+0.03
+0.045
+0.06
+...
+...
+1
+
+- Look at Camera and smooth movement
+
+What are we building?
+
+A camera movement system
+- the cam should move when the player moves
+- the cam should move in the same direction as the player
+- the cam should target the same y-position as the player, up to the bounds/range/limit (actually it can be used as a multiple)
+- it should move at a delay/lag (can we use a spring arm component for this? yes)(do we use interpolation? no)
+- we want the camera movement range to be limited (or do we use collision? pref not, because it is more computationally costly)
+- only right/left? or also up/down?
+
+Break until 11:00
+
+
++- 1800 UE units (cm) left or right range of flying vehicle.
++ 50% on left/right edges to expand play area
++- 900
+
+-2700 >>>> +2700
+
+
+Homework
+Complete and submit assignment 1
+Due 11:55pm on Sunday evening.
+
+
+
+
