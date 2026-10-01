@@ -1,0 +1,19 @@
+# Week 3 
+
+- TOPIC: Polish Movement Mechanics 
+
+- CONCEPT: Game Engine Framework / Variables 
+
+- TERMINOLOGY: Game Mode, Game Instance, Game State, Player State, Player Controller, Tick, Interpolation 
+
+- SKILL: Implement standards, styles and naming conventions 
+
+ 
+
+# Agenda 
+
+- Learn about UE framework, naming conventions 
+
+- Add rotating element to our flying vehicle 
+
+- Create smooth movement for our flying vehicle 
