@@ -1,0 +1,52 @@
+# Week 4 
+- TOPIC: Shooting Mechanics 
+- CONCEPT: Inheritance, unit math 
+- TERMINOLOGY: Parent class, child instance, parameter, material, material instance, spawn 
+- SKILL: Create parent and child classes, create parent materials and child material instances 
+
+# Agenda 
+- Introduction to Assignment 2
+- Create projectile parent and child classes 
+- Create different shooting modes 
+- Introduction to materials
+
+
+black - white
+0 - 1
+alpha
+
+[0-1]
+1 - [x]
+[1-0]
+* 0.1
+
+[0.1 - 0]
+[faint yellow - black]
+
+https://dev.epicgames.com/documentation/unreal-engine/movement-components-in-unreal-engine
+
+
+What is a "class"?
+
+Break until 10:10
+
+Material basics
+Bullet material + material instances
+
+Break until 11:00
+
+R	big
+G	med
+B	small
+
+0
++1
+1
+1 modulus 2 -> remainder 1
+shooting mode = 1
+
+1
++1
+2
+2 modulus 2 -> remainder 0
+shooting mode = 0
