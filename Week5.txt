@@ -1,0 +1,61 @@
+# Week 5 
+- TOPIC: Spawning Enemies and Collision Detection 
+- CONCEPT: Spawning and Destroying Actors/Objects 
+- TERMINOLOGY: collision, object type, trace type, overlap, block, query, timer 
+- SKILL: Configure custom collision, create custom functions/events
+
+Q&A Assignment 2: Game Prototype
+
+# Agenda 
+- Create enemy that flies straight and shoots 
+- Create a system that spawns the enemy 
+- Configure collision in the project and on the actor classes so that enemies detect when shot
+
+Generally show GitHub best practices
+Building good file management/version control habits
+
+
+Enemy + spawn it at a random location at random time intervals.
+
+What are we building?
+-enemy health
+-visual representation
+-collision (hit box/sphere)
+-moving down the screen (behaviour)
+-shooting on a timer
+-health
+-shooting mode?
+-different phases
+
+parent + child classes and inheritance...
+
+Base enemy (health, collision)
+	> straight flying enemy
+		> straight flying + shooting enemy
+	> fly zig-zag enemy
+	> fly into play area and stop enemy
+	> fly in and stop before flying side to side
+
+Break until 10:05
+
+Add movement to enemy A
+Revision with parent materials + material instances
+
+# Enemy spawner
+
+Break until 11:05
+
+Let's create a 3rd enemy
+
+Shoot mode?
+laser shooting...?
+
+secondary fire button
+instantly spawns a long object
+it to have a long recharge
+whatever the object touches, it should apply damage
+(instant kill for now)
+
+
+
+
