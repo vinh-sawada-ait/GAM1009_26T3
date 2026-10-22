@@ -1,0 +1,46 @@
+# Week 6 
+
+TOPIC: Collision Effects and Enemy Health 
+CONCEPT: Visual and Audio Gameplay Feedback 
+TERMINOLOGY: UI, HUD, Widget, Overlay Material, 2D Audio, 3D Audio, particle system (Niagara) 
+SKILL: Create basic UI Widgets, create basic particle system 
+
+Schedule: 
+Enemy health system 
+Feedback for damage and death 
+Particle systems 
+
+Q&A Assignment 2
+
+'Mutable' 
+'MutableValidation'
+
+
+Enemy Health System
+What are we building?
+
+Enemy to have a data variable that can track their health. e.g. 100
+float
+
+Break until 10:10
+
+Break until 11:05
+
+enemy = 100 hp
+player bullets = 50hps
+
+Let's use Unreal Engine's built in damage system.
+
+Where should I put this variable?
+Where should I build this function?
+Where should I save this asset?
+
+Enemy Health...
+
+Should the BP_enemy detect damage?
+Bullet deal with the damage?
+Does the enemy deal the damage?
+
+Where do we put max health?
+
+

@@ -50,3 +50,6 @@ shooting mode = 1
 2
 2 modulus 2 -> remainder 0
 shooting mode = 0
+
+Homework:
+Read assignment 2
