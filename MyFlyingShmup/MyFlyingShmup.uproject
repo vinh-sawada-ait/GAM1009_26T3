@@ -14,14 +14,6 @@
 		{
 			"Name": "HoudiniEngine",
 			"Enabled": false
-		},
-		{
-			"Name": "Mutable",
-			"Enabled": false
-		},
-		{
-			"Name": "MutableValidation",
-			"Enabled": false
 		}
 	]
 }
