@@ -1,0 +1,51 @@
+# Week 8 
+TOPIC: Health, Life, Damage Systems 
+CONCEPT: Classes, Actors and Casting, Interface 
+TERMINOLOGY: “Cast to”, Actor Class, Actor Reference 
+SKILL: Design and build features that implement the game framework (player controller, pawn, HUD/UI) 
+
+
+Schedule: 
+- Introduce Assignment 3 
+- Current health and damage systems revision 
+- Create life system 
+- Create basic pickup 
+
+Casting is when you attempt to assign a role to a actor.
+
+Ryan Gosling ->> cast into the role of >> Ken from Barbi
+Ryan Gosling ->> cast into the role of >> male lead in the notebook
+
+An interface is something that allows communication between classes
+In UE: an interface is a collection of functions that define the schema/template of functions implemented within classes.
+
+Break until 10:00
+
+Player lives
+What are we building?
+the player will have an intial number of lives (e.g. 3 lives), each time they die, they will only respawn if they have an available life. The number of lives is decremented each time they respawn. And if they run out of lives it is game over.
+
+
+track the number of lives as a variable...where should we store this? player controller
+some visual representation of the number of lives remaining
+
+blueprint interface functions, what will we need to handle player lives functionality?
+
+Break until 11:11
+
+Pickups
+
+What are we building?
+floats around, like an friendly icon.
+When the player overlaps it, the pickup will activate.
+the pickup could be +hp, +shooting mode, +life
+pickup going to have attributes that impact the player controller or the player's pawn
+parent bp_pickup
+child: bp_pickup_health
+	bp_pickup_shootingmode
+
+
+
+
+
+

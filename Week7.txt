@@ -1,0 +1,74 @@
+# Week 7 
+ - TOPIC: Alternative Control Schemes 
+ - CONCEPT: Control inputs and their impact on gameplay 
+ - TERMINOLOGY: Look At rotation, random stream, get unit direction, 
+ - SKILL: Integrate mouse controls, create enemies that react to player, implement a deterministic random spawning system 
+
+Q&A Assignment 2
+
+# Schedule 
+  - Game build/package (10mins)
+	- check for errors in your logs
+	- check your project settings
+	- check your visual studio installation
+  - Player score (15mins)
+	- decide how the scoring should work
+	- for convenience, we can connect score with enemy health. e.g. enemy has 100 hp, and we shoot it once, dealing 50 dmg, then we get 50 points.
+	- decide where to store the player score?
+		The player controller
+	- what data type is it?	float it is the same as enemy health.
+
+Break until 10:05
+  - Background music (10mins)
+  - Enemy turret 20min 
+  - Homing enemy 20min 
+  - Enemy spawner: spawn on spline ?
+  - Enemy spawner (deterministic randomisation) 60min 
+  - Mouse inputs and player shooting direction 40min 
+
+
+
+
+Seeded stream
+23
+784
+2
+8748
+36
+75
+
+F1 -> 2-4sec
+F5 -> 1.5 - 3 sec
+F10 -> 1-2sec
+
+  - Homing enemy 20min 
+
+BP_Enemy
+	BP_Enemy_1
+	BP_Enemy_2
+	BP_Enemy_3
+	BP_Enemy_4
+	*BP_Enemy_5
+
+  - Enemy turret 20min 
+	We want a straight flying enemy, that has a turret that always faces the player.
+
+This uses permutation/combination
+4 enemies
+1 turret
+	with auto aim
+	without auto aim
+
+4 x 3 = 12 combos.
+
+Break until 11:15
+
+HOMEWORK
+Work on assignment 2, and submit by the due date
+This Sunday evening.
+
+
+
+
+
+
