@@ -1,0 +1,26 @@
+# Week 9 
+
+TOPIC: User Interface 
+CONCEPT: Game framework 
+TERMINOLOGY: Widget class, canvas, panels, hit/non-hit detectable 
+SKILL: Animate UI elements 
+
+
+Schedule:
+Q&A Assignment 3
+Finish off pickup system
+
+Break until 10:00
+
+Using blueprint interfaces to communicate with the user interface.
+
+Analyse existing UI examples and sketch wireframes 
+	https://interfaceingame.com/games/ 
+	https://www.gameuidatabase.com/index.php 
+	https://www.youtube.com/watch?v=pi47bBT4G9Q
+Pause Menu / Start Screen 
+
+Break until 11:10
+
+Animating the UI 
+Game HUD 
