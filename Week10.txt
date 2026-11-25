@@ -1,0 +1,61 @@
+# Week 10 
+
+TOPIC: PickUps and PowerUps 
+CONCEPT: Integrating new game mechanics 
+TERMINOLOGY: Fresnel 
+SKILL: Coordinate modifications to HUD, Pawn, Projectiles, PlayerController, Inputs 
+
+Q&A Assignment 3 
+Spawning pickups on enemy deaths 
+
+What do we current have?
+	A pickup class
+		- collision
+		- magnetic movement
+		- destroys self on activation
+		- sends message to player when it is collected
+
+
+What changes do we want to make?
+	We want actual good/bad properties to be sent to the player.
+	A range of pickups
+		- hp
+		- life
+		- shooting mode
+		- pickup collection radius
+	A way to spawn pickups
+		- spawn on enemy death
+		- randomise? if its deterministic, then the enemy needs to be assigned a pickup upon spawning.
+	Special effects?
+		- particle effect
+		- material change
+		- audio cue
+	Ui
+		- update information
+		
+A new data type: Struct
+
+current max = 200hp
+current hp = 200 / 200hp
++50 hp
++50 max hp
+
+Break until 10:15
+
+New data collection type
+	- single
+	- array
+	- map?!?!
+		a key <----> a value 
+
+Break until 11:20
+
+Force Field PickUp
+	Can re-use our current pickup system
+
+Force field actor/mechanic
+
+
+HUD <--- redesign?!
+
+
