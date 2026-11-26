@@ -1,0 +1,71 @@
+# Week 11 
+
+TOPIC: Complex Scripting Logic 
+CONCEPT: Structs, data and data assets 
+TERMINOLOGY: Struct, data asset, primary data asset 
+SKILL: Specify a custom struct of data to create a flexible wave system 
+
+Replacing our enemy spawning (deterministic randomisation) with a wave spawner (purely deterministic in terms of wave data, could deterministic randomised for location of spawn point of the enemy)
+
+Q&A Assignment 3
+
+Enemy Boss
+BP_Enemy
+	Spawn off screen
+	Move into the play area, stop just inside the top of screen
+	Then move side to side
+		Starts at center
+		2secs move from center to right
+		2secs moving from right to center
+		2secs moving from center to left
+		2secs move from left to center
+	Custom event override for any events that are different (e.g. death sequence)
+	Turrets
+
+Break until 10:20
+
+Wave system
+
+What it does?
+Spawn enemies in groups
+Each enemy's spawn location is randomised (deterministic?)
+After each group is spawned a "event" will cause the next group to spawn.
+	event = set time? delay?
+	event = all enemies in current wave are killed/fly off screen
+
+What do want to specify?
+	The type of enemies (enemy class) in a wave
+	The number of enemies (integer)
+	The enemy spacing (initial delay to the enemy spawn)
+		(float seconds)
+	The wave spacing (initial delay to the wave)
+		(float seconds)
+	PickUp? 
+
+Delay before wave
+Wave 1:
+	5x enemy 1
+	....
+Delay before wave
+Wave 2:
+	5x enemy 2
+Delay before wave
+Wave 3:
+	2x enemy 4
+	Delay between enemy sets
+	2x enemy 2
+	Delay between enemy sets
+	2x enemy 3
+	Delay between enemy sets
+	2x enemy 1
+Wave 6:
+	1x enemy boss 1
+
+Use Structs (our own custom container of data types)
+Primary Data Asset (template)
+Data Asset (child, e.g. Level 1 data, Level 2 data)
+
+Enemy Wave Spawner
+
+
+
